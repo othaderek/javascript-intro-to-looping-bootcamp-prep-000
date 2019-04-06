@@ -15,6 +15,7 @@ function whileLoop(n) {
   } return 'done';
 }
 
+<<<<<<< HEAD
 function doWhileLoop(num) {
   var i = 0
 
@@ -30,3 +31,18 @@ function incrementVariable() {
 }
 
 
+=======
+
+
+function incrementVariable() {
+  let i = 0
+  i = i + 1;
+  return i;
+}
+
+function doWhileLoop(num) {
+  do { 
+    console.log("I run once regardless.");
+  } while (incrementVariable() < num);
+}
+>>>>>>> f082113a9872d61b0f39b9ce4032c6bff18183fc
